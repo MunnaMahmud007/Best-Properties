@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Properties</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Inter&display=swap" rel="stylesheet">
+
+<style>
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+/* HEADER */
+header {
+  background: #0A1F44;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  font-family: 'Poppins';
+}
+
+nav a {
+  color: white;
+  margin: 5px 10px;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  background: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c') center/cover;
+  height: 80vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.hero h2 {
+  font-size: 40px;
+}
+
+.btn {
+  background: #C9A14A;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+/* SECTION */
+.section {
+  padding: 40px 20px;
+}
+
+/* CARDS */
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 100%;
+}
+
+.card img {
+  width: 100%;
+}
+
+/* CONTACT BOX */
+.contact-box {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+  background: #0A1F44;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* TABLET */
+@media (min-width: 768px) {
+  .card { width: 48%; }
+}
+
+/* DESKTOP */
+@media (min-width: 1024px) {
+  .card { width: 30%; }
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+  <h1>🏠 Best Properties</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Properties</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div>
+    <h2>Find Your Dream Property</h2>
+    <p>Buy, Sell & Invest with Confidence</p>
+    <a href="#" class="btn">View Properties</a>
